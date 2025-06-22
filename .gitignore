@@ -1,1 +1,40 @@
+# Node.js
 node_modules/
+dist/                     # Compiled TypeScript output
+*.log                     # Log files (e.g., from your logger)
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Environment Variables
+.env                      # Contains sensitive API keys, never commit this!
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# TypeScript cache
+*.tsbuildinfo
+
+# VS Code specific (if you're using VS Code)
+.vscode/                  # Can include user-specific settings, but keep if for team settings
+.vscode/*.code-workspace
+.vscode/.DS_Store         # macOS specific
+
+# macOS specific
+.DS_Store
+
+# IDEs (if you use others)
+.idea/                    # IntelliJ IDEA
+*.iml                     # IntelliJ IDEA
+.project                  # Eclipse
+.classpath                # Eclipse
+.c9/                      # Cloud9
+*.sublime-workspace       # Sublime Text
+*.sublime-project
+.atom/                    # Atom
+
+# System files
+Thumbs.db                 # Windows thumbnails
+ehthumbs.db               # Windows thumbnails
